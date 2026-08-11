@@ -32,8 +32,7 @@ int main() {
         num /= 10; // Remove the last digit
     }
 
-    // 3. Check if the result matches the original number
-    // We cast result to int because pow returns a double
+
     if ((int)result == originalNum)
         cout << originalNum << " is an Armstrong number." << endl;
     else
