@@ -41,9 +41,9 @@ public:
 
 int main()
 {
-    FrequencyCounter fc;                       // Create object of the class
-    int arr[] = {10, 5, 10, 15, 10, 5};        // Sample input array
-    int n = sizeof(arr) / sizeof(arr[0]);     // Determine length of array
-    fc.Frequency(arr, n);                     // Call the function
+    FrequencyCounter fc;                       
+    int arr[] = {10, 5, 10, 15, 10, 5};        
+    int n = sizeof(arr) / sizeof(arr[0]);     
+    fc.Frequency(arr, n);                     
     return 0;
 }

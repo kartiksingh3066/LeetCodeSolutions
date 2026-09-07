@@ -52,7 +52,7 @@ int main() {
     if (ans != nullptr) {
         cout << "Node found: " << ans->val << endl;
     } else {
-        cout << "Node not found" << endl;
+        cout << "not found" << endl;
     }
 
     return 0;

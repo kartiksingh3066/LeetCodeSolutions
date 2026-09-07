@@ -27,9 +27,7 @@ public:
             i++;
         }
 
-        for(int nums:result){
-            cout<<result[nums];
-        }
+        return result;
     }
 };
 
